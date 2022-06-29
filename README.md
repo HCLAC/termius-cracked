@@ -32,3 +32,11 @@
 ### 破解笔记
 
 详细破解方法请访问我的个人博客！
+
+目前最新版本为7.39，安装完之后第二次打开会自动更新为7.39，此时破解文件7.13会失效
+
+解决步骤：
+1.第一次安装完成后自动打开客户端时，不要关闭客户端
+2.删除C:\Users\用户名\AppData\Local\Programs\Termius\resources 下termius-update.yml和elevate
+3.删除C:\Users\用户名\AppData\Local下的termius-updator文件夹(好像是叫这个名字)
+4.此时关闭客户端后再打开，版本不会自动更新
